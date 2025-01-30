@@ -1,0 +1,122 @@
+/* order of css tags? 
+
+@import top
+normal html tags
+classes
+ids
+*/ 
+
+#classroom {
+  height: 800px; 
+  width: 800px; 
+  background-color: #CCC; 
+  margin: auto; 
+  
+   
+}
+
+
+.desks {
+  height: 100px; 
+  width: 600px; 
+  background-color: blue; 
+  position: relative;  
+  left: 125px; 
+}
+
+.floatBox {
+  height: 30px; 
+/*   width: 30px; */
+  width: 30%; 
+  margin: 4px; 
+  background-color: tomato; 
+/*   float: left;  */
+  float: right;
+  
+}
+
+.floatClear {
+/*   clear: right;  */
+}
+
+/* see clearfix: https://www.w3schools.com/howto/howto_css_clearfix.asp */
+
+#fxt {
+  height: 5%; 
+  width: 5%; 
+  border: dotted 3px green; 
+  position: fixed; 
+  bottom: 5px; 
+  right: 5px; 
+}
+
+#banner {
+  height: 75px; 
+  width: 80%;
+  margin: auto; 
+  border: dotted 3px green; 
+  position: fixed; 
+  top: 30px; 
+  left: 0;
+  right: 0;
+ 
+
+  
+}
+#chatBox {
+  
+  height: 50px; 
+  width: 30px; 
+  border: dashed 2px red; 
+  position: fixed; 
+  top: 10%; 
+  right: 0px; 
+}
+
+#podium {
+  height: 100px;
+  width: 150px; 
+  background-color: blue; 
+  position: relative; 
+  top: 50px; 
+  left: 50px; 
+  rotate: 150deg; 
+}
+
+#firstRow {
+/*   height: 100px; 
+  width: 600px; */
+/*   position: relative;   */
+  
+/*   left: 100px; */
+/*   background-color: blue;  */
+  top: 100px; 
+}
+
+#secondRow {
+/*   height: 100px; 
+  width: 600px; 
+  background-color: blue; 
+  position: relative; 
+  left: 100px; */
+  top: 150px; 
+}
+
+#thirdRow {
+/*   height: 100px; 
+  width: 600px; 
+  background-color: #DDD; 
+  position: relative; 
+  left: 100px;  */
+  top: 200px;
+}
+
+#fourthRow {
+/*   height: 100px; 
+  width: 600px; 
+  background-color: blue; 
+  position: relative; 
+  left: 100px;*/
+  top: 250px;  
+  
+}
